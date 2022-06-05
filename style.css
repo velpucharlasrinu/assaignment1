@@ -1,58 +1,72 @@
-#srinu {
-    color: rgb(0, 255, 200);
-    text-align: center;
-    margin:100px 245px 0px 0px;
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box{
+    height: 34vh;
+    width: 100vw;
+    padding: 20px;
+    background-color: white;
+    font-size: large;
+
+}
+.box2{
+    height: 34vh;
+    width: 100vw;
+    padding: 20px;
+    background-color: rgb(32, 178, 170);
+    color: white;
+    font-size: larger;
+
+}
+.box3{
+    height: 34vh;
+    width:100vw;
+    padding: 20px;
+    background-color: rgb(7, 214, 76, 0.9);
+    font-size: larger;
+    color: white;
+}
+#srinu{
+    color: rgb(32, 178, 170);         
+                                      
 }
 #sai{
-    color:greenyellow;
-    text-align:center;
-    margin-right: 100px;
-
+    padding-top: 10px;
+    color: light rgba(125, 233, 10, 0.911);
 }
 #guna{
-    text-align: center;
-    margin-right: 10px;
+    padding-top: 10px;
 }
-.hari{
-    text-align: center;
-    margin-left: 10px;
+span{
+    font-size: xx-large;
 }
-
-.name{
-    width: 45%;
-    height: 300px;
-    margin-left: 50px ;;
-    float: left;
-    border: 1px;
-    background-color: rgba(8, 201, 201, 0.925);
-    color: white;
-}
-.gender{
-    width: 45%;
-    height: 300px;
-    float: left;
-    border: 1px;
-    background-color: rgb(6, 104, 6);
-    color: white;
-}
-#nag{
-    margin: 30px 0px 0px 70px;
-}
-#naveen{
-    margin: 30px 0px 0px 70px;
+button{
+    padding:10px 30px 10px 30px;
+    background-color:rgba(125, 233, 10, 0.911) ;
+    font-size: medium;
 }
 .bro{
-    margin-left: 70px;
+    padding-top: 5px;
 }
-.size{
-    font-size:x-large;
-}
-.sis{
-    background-color:yellow;
-    color: black;
-    margin-right: 20px;
-    padding: 3px 30px 3px 30px;
-}
-body{
-    font-size: large;
+@media only screen and (min-width:1024px){
+    .box3{
+        float: right;
+        height: 50vh;
+        width: 50%;;
+    }
+    .box2{
+        float: left;
+        height: 50vh;
+        width: 50%;
+    }
+    .box{
+        height: 50vh;
+        width: 100vw;
+        padding: 100px 0px 10px 300px;
+    }
+    p{
+        padding-top: 5px;
+    }
 }
