@@ -2,71 +2,273 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'karla'sans-serif;
 }
-.box{
+.box1{
     height: 34vh;
     width: 100vw;
-    padding: 20px;
+    padding: 30px;
     background-color: white;
-    font-size: large;
 
 }
 .box2{
     height: 34vh;
     width: 100vw;
-    padding: 20px;
+    padding: 30px;
     background-color: rgb(32, 178, 170);
     color: white;
-    font-size: larger;
+    /* font-size: large; */
+    
+    
 
 }
 .box3{
     height: 34vh;
     width:100vw;
-    padding: 20px;
-    background-color: rgb(7, 214, 76, 0.9);
-    font-size: larger;
+    padding: 30px;
+    background-color: hsl(179,47%,51%);
     color: white;
 }
 #srinu{
-    color: rgb(32, 178, 170);         
-                                      
+    color: rgb(32, 178, 130);   
+    /* font-size: larger;       */
+                               
+}
+body{
+    font-family: 'karla', sans-serif;
+    /* font-weight: lighter; */
+    font-size: medium;
+    /* padding-left: 20px; */
 }
 #sai{
-    padding-top: 10px;
-    color: light rgba(125, 233, 10, 0.911);
+    padding-top: 5px;
+    color: hsl(69, 53%, 55%);
+    font-size: large;
 }
 #guna{
     padding-top: 10px;
+    color: rgba(194, 177, 177, 0.71);
+    line-height: 5vw;
+    /* font-weight: bolder; */
+    font-size: small;
+    
 }
 span{
     font-size: xx-large;
 }
-button{
-    padding:10px 30px 10px 30px;
-    background-color:rgba(125, 233, 10, 0.911) ;
+.button{
+    width: 200px;
+    height: 40px;
+    /* padding: 5px, 5px ,5px, 0px; */
+    background-color:hsl(71, 72%, 53%);
+    border-radius: 5px;
+    border:0px solid hsl(71, 72%, 53%);
     font-size: medium;
+    text-align: center;
+    color: white;
 }
-.bro{
+.sis{
     padding-top: 5px;
+    font-size: small;
 }
-@media only screen and (min-width:1024px){
-    .box3{
-        float: right;
-        height: 50vh;
-        width: 50%;;
+
+.bro{
+    padding-top: 15px;
+    font-size: small;
+    
+}
+.nag{
+    font-size: large;
+}
+@media only screen and (min-width:768px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        /* font-size: x-large; */
     }
-    .box2{
-        float: left;
-        height: 50vh;
-        width: 50%;
+
+    body{
+        font-size: x-large;
+        font-family: 'karla'sans-serif;
+        
+        
     }
-    .box{
+
+    .box1{
         height: 50vh;
         width: 100vw;
-        padding: 100px 0px 10px 300px;
+        padding: 40px;
+
     }
-    p{
-        padding-top: 5px;
+    .box2{
+        height: 50vh;
+        width: 50%;
+        float: left;
     }
+    .box3{
+        height: 50vh;
+        width: 50%;
+        float: right;
+    }
+    #srinu{
+        padding: 30px 0px 20px 20px;
+        font-size: 30px;
+    }
+    #sai{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    #guna{
+        line-height: normal;
+        font-size: 17px;
+        padding-left: 20px;
+    }
+    #nag{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    #naveen{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    .sis{
+        font-size: 17px;
+        padding-left: 20px;
+    }
+    .bro{
+        font-size: 17px;
+        padding-left: 20px;
+        /* line-height: 5px; */
+    }
+    
 }
+  
+  @media only screen and (min-width:1000px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        /* font-size: x-large; */
+    }
+
+    body{
+        font-size: xx-large;
+        font-family: 'karla'sans-serif;
+        
+        
+    }
+
+    .box1{
+        height: 50vh;
+        width: 100vw;
+        padding: 50px;
+
+    }
+    .box2{
+        height: 50vh;
+        width: 50%;
+        float: left;
+    }
+    .box3{
+        height: 50vh;
+        width: 50%;
+        float: right;
+    }
+    #srinu{
+        padding: 30px 0px 20px 10px;
+        font-size: 35px;
+    }
+    #sai{
+        font-size: 23px;
+        padding-left: 10px;
+    }
+    #guna{
+        line-height: normal;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    #nag{
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    #naveen{
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .sis{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .bro{
+        font-size: 20px;
+        padding-left: 20px;
+        /* line-height: 5px; */
+    }
+    
+
+  }
+  @media only screen and (min-width:1440){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        /* font-size: x-large; */
+    }
+
+    body{
+        font-size: xx-large;
+        font-family: 'karla'sans-serif;
+        
+        
+    }
+
+    .box1{
+        height: 50vh;
+        width: 100vw;
+        padding: 50px;
+
+    }
+    .box2{
+        height: 50vh;
+        width: 50%;
+        float: left;
+    }
+    .box3{
+        height: 50vh;
+        width: 50%;
+        float: right;
+    }
+    #srinu{
+        padding: 30px 0px 20px 20px;
+        font-size: 35px;
+    }
+    #sai{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    #guna{
+        line-height: normal;
+        font-size: 23px;
+        padding-left: 30px;
+    }
+    #nag{
+        font-size: 35px;
+        padding-left: 30px;
+    }
+    #naveen{
+        font-size: 35px;
+        padding-left: 30px;
+    }
+    .sis{
+        font-size: 23px;
+        padding-left: 30px;
+    }
+    .bro{
+        font-size: 23px;
+        padding-left: 30px;
+        /* line-height: 5px; */
+    }
+    
+
+  }
